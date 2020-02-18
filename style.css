@@ -1,0 +1,22 @@
+body {
+    background-color: #37323E;
+}
+
+@media screen and (min-width: 300px) {
+    #logo {
+        max-width: 60%;
+        margin-top: 150px;
+    }
+}
+
+@media screen and (min-width: 415px) {
+    #logo {
+        max-width: 40%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #logo {
+        max-width: 30%;
+    }
+}
