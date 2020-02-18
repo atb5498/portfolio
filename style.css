@@ -1,21 +1,64 @@
 body {
     background-color: #37323E;
+    height: 1000px;
 }
 
-@media screen and (min-width: 300px) {
-    #logo {
-        max-width: 60%;
-        margin-top: 150px;
+#logo {
+    max-width: 50%;
+    margin-top: 150px;
+}
+
+h1 {
+    color: white;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+h2 {
+    color: white;
+    letter-spacing: 5px;
+    font-size: .75rem;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+@media screen and (min-width: 325px) {
+    h1 {
+        letter-spacing: 7.5px;
+    }
+    h2 {
+        letter-spacing: 7.5px;
     }
 }
 
-@media screen and (min-width: 415px) {
+@media screen and (min-width: 576px) {
     #logo {
-        max-width: 40%;
+        max-width: 55%;
+    }
+    h1 {
+        font-size: 2rem;
+        letter-spacing: 10px;
+    }
+    h2 {
+        font-size: 1rem;
+        letter-spacing: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #logo {
+        max-width: 45%;
     }
 }
 
 @media screen and (min-width: 992px) {
+    #logo {
+        max-width: 35%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
     #logo {
         max-width: 30%;
     }
