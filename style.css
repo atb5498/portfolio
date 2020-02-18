@@ -10,7 +10,7 @@ body {
 
 h1 {
     color: white;
-    letter-spacing: 5px;
+    letter-spacing: 6.5px;
     font-size: 1.5rem;
     font-weight: bold;
     font-family: 'Barlow Condensed', sans-serif;
@@ -18,18 +18,9 @@ h1 {
 
 h2 {
     color: white;
-    letter-spacing: 5px;
+    letter-spacing: 6.5px;
     font-size: .75rem;
     font-family: 'Barlow Condensed', sans-serif;
-}
-
-@media screen and (min-width: 325px) {
-    h1 {
-        letter-spacing: 7.5px;
-    }
-    h2 {
-        letter-spacing: 7.5px;
-    }
 }
 
 @media screen and (min-width: 576px) {
@@ -38,11 +29,9 @@ h2 {
     }
     h1 {
         font-size: 2rem;
-        letter-spacing: 10px;
     }
     h2 {
         font-size: 1rem;
-        letter-spacing: 10px;
     }
 }
 
