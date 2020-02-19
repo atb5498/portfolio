@@ -1,6 +1,5 @@
 body {
     background-color: #37323E;
-    height: 1000px;
 }
 
 #logo {
@@ -10,45 +9,50 @@ body {
 
 h1 {
     color: white;
-    letter-spacing: 7px;
-    font-size: 1.5rem;
+    letter-spacing: 5px;
+    font-size: 2rem;
     font-weight: bold;
     font-family: 'Barlow Condensed', sans-serif;
 }
 
 h2 {
     color: white;
-    letter-spacing: 7px;
-    font-size: .75rem;
+    letter-spacing: 5px;
+    font-size: 1rem;
     font-family: 'Barlow Condensed', sans-serif;
+    margin-bottom: 35px;
 }
 
-@media screen and (min-width: 576px) {
-    #logo {
-        max-width: 55%;
-    }
-    h1 {
-        font-size: 2rem;
-    }
-    h2 {
-        font-size: 1rem;
-    }
+i {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #37323E;
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 9px;
+}
+
+i:hover {
+    background-color: #DEB841;
 }
 
 @media screen and (min-width: 768px) {
     #logo {
-        max-width: 45%;
+        max-width: 40%;
     }
 }
 
 @media screen and (min-width: 992px) {
     #logo {
-        max-width: 35%;
+        max-width: 30%;
     }
 }
 
 @media screen and (min-width: 1200px) {
     #logo {
-        max-width: 30%;
+        max-width: 25%;
     }
 }
