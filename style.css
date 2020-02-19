@@ -20,7 +20,7 @@ h2 {
     letter-spacing: 5px;
     font-size: 1rem;
     font-family: 'Barlow Condensed', sans-serif;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 
 i {
@@ -45,6 +45,12 @@ i:hover {
     }
 }
 
+@media screen and (min-height: 800px) {
+    #logo {
+        margin-top: 225px;
+    }
+}
+
 @media screen and (min-width: 992px) {
     #logo {
         max-width: 30%;
@@ -54,5 +60,11 @@ i:hover {
 @media screen and (min-width: 1200px) {
     #logo {
         max-width: 25%;
+    }
+}
+
+@media screen and (min-height: 1200px) {
+    #logo {
+        margin-top: 425px;
     }
 }
