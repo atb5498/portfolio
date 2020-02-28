@@ -1,6 +1,6 @@
 #header {
-    height: 1000px;
     font-family: 'Barlow Condensed', sans-serif;
+    margin-bottom: 150px;
 }
 
 #logo {
@@ -9,14 +9,14 @@
     margin-bottom: 25px;
 }
 
-h1 {
+#header h1 {
     color: white;
     letter-spacing: 5px;
     font-size: 1.25rem;
     font-weight: bold;
 }
 
-h2 {
+#header h2 {
     color: white;
     letter-spacing: 5px;
     font-size: .75rem;
@@ -41,13 +41,16 @@ i:hover {
 
 @media screen and (min-height: 600px) {
     #logo {
-        margin-top: 125px;
+        margin-top: 150px;
+    }
+    #header {
+        margin-bottom: 200px;
     }
 }
 
 @media screen and (min-height: 700px) {
     #logo {
-        margin-top: 175px;
+        margin-top: 200px;
     }
 }
 
@@ -59,7 +62,16 @@ i:hover {
 
 @media screen and (min-height: 1000px) {
     #logo {
-        margin-top: 250px;
+        margin-top: 300px;
+    }
+}
+
+@media screen and (min-height: 1200px) {
+    #logo {
+        margin-top: 475px;
+    }
+    #header {
+        margin-bottom: 300px;
     }
 }
 
@@ -67,10 +79,10 @@ i:hover {
     #logo {
         width: 230px;
     }
-    h1 {
+    #header h1 {
         font-size: 2rem;
     }
-    h2 {
+    #header h2 {
         font-size: 1.25rem;
     }
 }
