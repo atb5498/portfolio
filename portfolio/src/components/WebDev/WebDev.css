@@ -6,6 +6,20 @@
     font-family: 'Barlow Condensed', sans-serif;
 }
 
+img {
+    border: none;
+    margin-bottom: 30px;
+    transition: border-top .5s;
+}
+
+img:hover {
+    border-top: 14px solid #DEB841;
+}
+
+#projects {
+    margin-bottom: 150px;
+}
+
 @media screen and (min-width: 576px) {
     #web-dev h1 {
         font-size: 2rem;

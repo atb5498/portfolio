@@ -4,6 +4,7 @@
     font-size: 1.25rem;
     font-weight: bold;
     font-family: 'Barlow Condensed', sans-serif;
+    margin-top: 300px;
 }
 
 @media screen and (min-width: 576px) {
