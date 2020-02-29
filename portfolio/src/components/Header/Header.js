@@ -23,7 +23,7 @@ function Header() {
                             </a>
 
                             <a href="https://abcreative.design" target="_blank" data-toggle="tooltip" data-placement="top"
-                                title="abcreative.design"><i className="fas fa-pencil-ruler fa-2x" role="button" data-toggle="tooltip"></i>
+                                title="abcreative.design"><i className="fas fa-pencil-alt fa-2x" role="button" data-toggle="tooltip"></i>
                             </a>
                         </div>
                     </div>
