@@ -6,18 +6,48 @@
     font-family: 'Barlow Condensed', sans-serif;
 }
 
-.project {
-    border: none;
-    margin-bottom: 30px;
-    transition: border-top .5s;
-}
-
-.project:hover {
-    border-top: 14px solid #DEB841;
-}
-
 #projects {
     margin-bottom: 150px;
+}
+
+p {
+    opacity: 0;
+    color: white;
+    letter-spacing: 1px;
+    font-size: .75rem;
+    transition: opacity .75s;
+}
+
+.project {
+    border-top: 0px;
+    transition: border-top .75s;
+}
+
+#project-1:hover p {
+    opacity: 1;
+}
+
+#project-2:hover p {
+    opacity: 1;
+}
+
+#project-3:hover p {
+    opacity: 1;
+}
+
+#project-1:hover .project {
+    border-top: 14px solid #DEB841;
+    padding-top: 14px;
+}
+
+#project-2:hover .project {
+    border-top: 14px solid #DEB841;
+    padding-top: 14px;
+}
+
+#project-3:hover .project {
+    border-top: 14px solid #DEB841;
+    padding-top: 14px;
 }
 
 @media screen and (min-width: 576px) {
@@ -26,5 +56,17 @@
     }
     #web-dev h2 {
         font-size: 1.25rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #project-1 {
+        margin-bottom: 40px;
+    }
+    #project-2 {
+        margin-bottom: 40px;
     }
 }

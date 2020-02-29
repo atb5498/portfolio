@@ -15,22 +15,28 @@ function WebDev() {
 
             <div className="container">
                 <div id="projects">
-                    <div className="row justify-content-center">
-                        <div className="col-7 col-sm-6 col-md-4">
+                    <div className="row justify-content-center text-center">
+                        <div id="project-1" className="col-7 col-sm-6 col-md-4">
+                            <p>Find a brewery.</p>
+
                             <a href="https://atb5498.github.io/brew-near-you/" target="_blank">
-                                <img className="project" src="images/brew-near-you.png" className="img-fluid" alt="Responsive image" />
+                                <img src="images/brew-near-you.png" className="project img-fluid" alt="Responsive image" />
                             </a>
                         </div>
 
-                        <div className="col-7 col-sm-6 col-md-4">
+                        <div id="project-2" className="col-7 col-sm-6 col-md-4">
+                            <p>Generate a profile.</p>
+
                             <a href="https://atb5498.github.io/elevate/" target="_blank">
-                                <img className="project" src="images/elevate.png" className="img-fluid" alt="Responsive image" />
+                                <img src="images/elevate.png" className="project img-fluid" alt="Responsive image" />
                             </a>
                         </div>
 
-                        <div className="col-7 col-sm-6 col-md-4">
+                        <div id="project-3" className="col-7 col-sm-6 col-md-4">
+                            <p>Plan your day.</p>
+
                             <a href="https://atb5498.github.io/work-day-planner/" target="_blank">
-                                <img className="project" src="images/work-day-planner.png" className="img-fluid" alt="Responsive image" />
+                                <img id="project3" src="images/work-day-planner.png" className="project img-fluid" alt="Responsive image" />
                             </a>
                         </div>
                     </div>

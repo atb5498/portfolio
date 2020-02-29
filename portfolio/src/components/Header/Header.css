@@ -38,9 +38,6 @@ i:hover {
     #logo {
         margin-top: 150px;
     }
-    #header {
-        margin-bottom: 200px;
-    }
 }
 
 @media screen and (min-height: 700px) {
@@ -59,14 +56,14 @@ i:hover {
     #logo {
         margin-top: 300px;
     }
+    #header {
+        margin-bottom: 250px;
+    }
 }
 
 @media screen and (min-height: 1200px) {
     #logo {
         margin-top: 475px;
-    }
-    #header {
-        margin-bottom: 300px;
     }
 }
 
