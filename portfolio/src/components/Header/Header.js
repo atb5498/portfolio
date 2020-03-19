@@ -19,11 +19,11 @@ function Header() {
                             </a>
 
                             <a href="https://github.com/atb5498" target="_blank" data-toggle="tooltip" data-placement="top"
-                                title="atb5498"><i className="fab fa-github fa-2x" role="button"></i>
+                                title="GitHub"><i className="fab fa-github fa-2x" role="button"></i>
                             </a>
 
-                            <a href="https://abcreative.design" target="_blank" data-toggle="tooltip" data-placement="top"
-                                title="abcreative.design"><i className="fas fa-pencil-alt fa-2x" role="button" data-toggle="tooltip"></i>
+                            <a href="https://stoker-deer-67427.netlify.com" target="_blank" data-toggle="tooltip" data-placement="top"
+                                title="Graphic Design"><i className="fas fa-pencil-alt fa-2x" role="button" data-toggle="tooltip"></i>
                             </a>
                         </div>
                     </div>
