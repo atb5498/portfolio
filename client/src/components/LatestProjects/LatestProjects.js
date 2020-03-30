@@ -1,9 +1,9 @@
 import React from "react";
-import "./WebDev.css";
+import "./LatestProjects.css";
 
-function WebDev() {
+function LatestProjects() {
     return (
-        <div id="web-dev">
+        <div id="latest-projects">
             <div className="container">
                 <div className="row">
                     <div className="col text-center">
@@ -35,7 +35,7 @@ function WebDev() {
                         <div id="project-3" className="col-7 col-sm-6 col-md-4">
                             <p>Sell your books.</p>
 
-                            <a href="https://the-bookup.herokuapp.com/" target="_blank">
+                            <a href="https://the-bookup-dev.herokuapp.com/" target="_blank">
                                 <img src="images/the-bookup.png" className="project img-fluid" alt="Responsive image" />
                             </a>
                         </div>
@@ -46,4 +46,4 @@ function WebDev() {
     );
 }
 
-export default WebDev;
+export default LatestProjects;

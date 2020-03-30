@@ -1,8 +1,8 @@
-#web-dev {
+#latest-projects {
     opacity: 0;
 }
 
-#web-dev h1 {
+#latest-projects h1 {
     color: white;
     letter-spacing: 5px;
     font-size: 1.25rem;
@@ -62,10 +62,10 @@ p {
 }
 
 @media screen and (min-width: 576px) {
-    #web-dev h1 {
+    #latest-projects h1 {
         font-size: 2rem;
     }
-    #web-dev h2 {
+    #latest-projects h2 {
         font-size: 1.25rem;
     }
     .divider {
