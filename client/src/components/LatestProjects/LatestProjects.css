@@ -44,7 +44,6 @@ p {
 
 #project-1:hover .project-img, #project-2:hover .project-img, #project-3:hover .project-img, #project-4:hover .project-img {
     border-top: 10px solid #DEB841;
-    padding-top: 10px;
 }
 
 @media screen and (min-width: 576px) {
@@ -63,7 +62,6 @@ p {
     }
     #project-1:hover .project-img, #project-2:hover .project-img, #project-3:hover .project-img, #project-4:hover .project-img {
         border-top: 14px solid #DEB841;
-        padding-top: 14px;
     }
 }
 
