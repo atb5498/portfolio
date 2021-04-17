@@ -18,12 +18,12 @@
     margin-bottom: 50px;
 }
 
-#projects {
+/* #projects {
     margin-bottom: 150px;
-}
+} */
 
 #project-1, #project-2, #project-3, #project-4 {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 p {
