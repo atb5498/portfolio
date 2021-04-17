@@ -20,7 +20,7 @@ function LatestProjects() {
                             <p>Plan your day.</p>
 
                             <a href="https://atb5498.github.io/work-day-planner/" target="_blank">
-                                <img id="project3" src="images/work-day-planner.png" className="project img-fluid" alt="Responsive image" />
+                                <img id="project3" src="images/work-day-planner.png" className="project img-fluid" alt="Work Day Planner" />
                             </a>
                         </div>
 
@@ -28,7 +28,7 @@ function LatestProjects() {
                             <p>Find a brewery.</p>
 
                             <a href="https://atb5498.github.io/brew-near-you/" target="_blank">
-                                <img src="images/brew-near-you.png" className="project img-fluid" alt="Responsive image" />
+                                <img src="images/brew-near-you.png" className="project img-fluid" alt="Brew Near You" />
                             </a>
                         </div>
 
@@ -36,7 +36,15 @@ function LatestProjects() {
                             <p>Sell your books.</p>
 
                             <a href="https://the-bookup-dev.herokuapp.com/" target="_blank">
-                                <img src="images/the-bookup.png" className="project img-fluid" alt="Responsive image" />
+                                <img src="images/the-bookup.png" className="project img-fluid" alt="The BookUp" />
+                            </a>
+                        </div>
+
+                        <div id="project-3" className="col-7 col-sm-6 col-md-4">
+                            <p>Generate a password.</p>
+
+                            <a href="https://atb5498.github.io/password-generator" target="_blank">
+                                <img src="images/password-generator.png" className="project img-fluid" alt="Password Generator" />
                             </a>
                         </div>
                     </div>
