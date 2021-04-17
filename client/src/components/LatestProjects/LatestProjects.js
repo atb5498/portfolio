@@ -43,8 +43,24 @@ function LatestProjects() {
                         <div id="project-4" className="col-7 col-sm-6 col-md-4">
                             <p>Generate a password.</p>
 
-                            <a href="https://atb5498.github.io/password-generator" target="_blank">
+                            <a href="https://atb5498.github.io/password-generator/" target="_blank">
                                 <img src="images/password-generator.png" className="project-img img-fluid" alt="Password Generator" />
+                            </a>
+                        </div>
+
+                        <div id="project-5" className="col-7 col-sm-6 col-md-4">
+                            <p>Share your GitHub.</p>
+
+                            <a href="https://atb5498.github.io/elevate/" target="_blank">
+                                <img src="images/github-profile-generator.png" className="project-img img-fluid" alt="GitHub Profile Generator" />
+                            </a>
+                        </div>
+
+                        <div id="project-6" className="col-7 col-sm-6 col-md-4">
+                            <p>Test your knowledge.</p>
+
+                            <a href="https://atb5498.github.io/coding-quiz/" target="_blank">
+                                <img src="images/coding-quiz.png" className="project-img img-fluid" alt="Coding Quiz" />
                             </a>
                         </div>
                     </div>

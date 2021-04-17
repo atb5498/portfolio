@@ -22,7 +22,7 @@
     margin-bottom: 150px;
 } */
 
-#project-1, #project-2, #project-3, #project-4 {
+#project-1, #project-2, #project-3, #project-4, #project-5, #project-6 {
     margin-bottom: 20px;
 }
 
@@ -40,7 +40,7 @@ p {
     transition: border-top .75s;
 } */
 
-#project-1:hover p, #project-2:hover p, #project-3:hover p, #project-4:hover p {
+#project-1:hover p, #project-2:hover p, #project-3:hover p, #project-4:hover p, #project-5:hover p, #project-6:hover p {
     opacity: 1;
 }
 
