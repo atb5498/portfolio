@@ -18,10 +18,6 @@
     margin-bottom: 50px;
 }
 
-/* #projects {
-    margin-bottom: 150px;
-} */
-
 #project-1, #project-2, #project-3, #project-4, #project-5, #project-6 {
     margin-bottom: 20px;
 }
@@ -33,21 +29,12 @@ p {
     font-size: .75rem;
     transition: opacity .75s;
     border-bottom: 10px solid #DEB841;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
-
-/* .project-img {
-    transition: border-top .75s;
-} */
 
 #project-1:hover p, #project-2:hover p, #project-3:hover p, #project-4:hover p, #project-5:hover p, #project-6:hover p {
     opacity: 1;
 }
-
-/* #project-1:hover .project-img, #project-2:hover .project-img, #project-3:hover .project-img, #project-4:hover .project-img {
-    border-top: 10px solid #DEB841;
-    padding-top: 10px;
-} */
 
 @media screen and (min-width: 576px) {
     #latest-projects h1 {
@@ -63,12 +50,8 @@ p {
     p {
         font-size: 1rem;
         border-bottom: 14px solid #DEB841;
-        padding-bottom: 14px;
+        padding-bottom: 7px;
     }
-    /* #project-1:hover .project-img, #project-2:hover .project-img, #project-3:hover .project-img, #project-4:hover .project-img {
-        border-top: 14px solid #DEB841;
-        padding-top: 14px;
-    } */
 }
 
 @media screen and (max-width: 576px) {
